@@ -3,7 +3,7 @@ const panels = document.querySelectorAll('div');
 const jojoSoundBites = ['zaWarudo', 'yesIAm', 'ohNo', 'goodbyeJojo'];
 
 for(let i = 0; i < panels.length; i++) {
-    panels[i].addEventListener('click', open);
+    panels[i].addEventListener('mouseover', open);
 }
 
 function open(event) {
